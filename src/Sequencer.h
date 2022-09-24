@@ -6,6 +6,8 @@
 #define CQUENCER_SEQUENCER_H
 
 
+#include "OutputInterface.h"
+
 class Sequencer {
   public:
     int currentStep;
@@ -14,9 +16,10 @@ class Sequencer {
     int maxPattern;
     int bpm;
     bool isPlaying;
+    OutputInterface outputInterface;
 
     Sequencer(int maxStepSize, int maxPatternSize) :
-        maxStep(maxStepSize), maxPattern(maxPatternSize) {
+        maxStep(maxStepSize), maxPattern(maxPatternSize), outputInterface(8, 12, 11) {
 
         currentStep = 0;
         currentPattern = 0;

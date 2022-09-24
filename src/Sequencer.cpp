@@ -10,4 +10,7 @@ void Sequencer::doStep() {
     } else {
         currentStep = 0;
     }
+
+    outputInterface.outputData(outputInterface.numericArray[currentStep]);
+    delay(500);
 }

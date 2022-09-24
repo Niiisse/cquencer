@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -19,7 +19,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32139233-601c-4604-a025-957803e290dc" name="Changes" comment="" />
+    <list default="true" id="32139233-601c-4604-a025-957803e290dc" name="Changes" comment="">
+      <change beforePath="$USER_HOME$/ /home/nisse/code/cquencer/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/ /home/nisse/code/cquencer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/ /home/nisse/code/cquencer/src/OutputInterface.h" beforeDir="false" afterPath="$USER_HOME$/ /home/nisse/code/cquencer/src/OutputInterface.h" afterDir="false" />
+      <change beforePath="$USER_HOME$/ /home/nisse/code/cquencer/src/Sequencer.cpp" beforeDir="false" afterPath="$USER_HOME$/ /home/nisse/code/cquencer/src/Sequencer.cpp" afterDir="false" />
+      <change beforePath="$USER_HOME$/ /home/nisse/code/cquencer/src/Sequencer.h" beforeDir="false" afterPath="$USER_HOME$/ /home/nisse/code/cquencer/src/Sequencer.h" afterDir="false" />
+      <change beforePath="$USER_HOME$/ /home/nisse/code/cquencer/src/main.cpp" beforeDir="false" afterPath="$USER_HOME$/ /home/nisse/code/cquencer/src/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,22 +54,26 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "nodejs_package_manager_path": "npm"
+    "last_opened_file_path": "/home/nisse/ /home/nisse/code/cquencer",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "trusted.hosts"
   }
 }]]></component>
   <component name="RunManager" selected="PlatformIO.PlatformIO Upload">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="Z_DUMMY_TARGET" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cquencer" TARGET_NAME="Z_DUMMY_TARGET" CONFIG_NAME="uno" RUN_TARGET_PROJECT_NAME="cquencer" RUN_TARGET_NAME="Z_DUMMY_TARGET">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Z_DUMMY_TARGET" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cquencer" TARGET_NAME="Z_DUMMY_TARGET" CONFIG_NAME="uno" RUN_TARGET_PROJECT_NAME="cquencer" RUN_TARGET_NAME="Z_DUMMY_TARGET">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -92,7 +102,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664046885854</updated>
-      <workItem from="1664046887146" duration="391000" />
+      <workItem from="1664046887146" duration="776000" />
+      <workItem from="1664047671534" duration="547000" />
     </task>
     <servers />
   </component>
@@ -109,5 +120,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -32,6 +32,7 @@ class OutputInterface {
     };
 
     OutputInterface(int latch, int clock, int data);
+
     void outputData(byte data) const;
 };
 

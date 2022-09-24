@@ -10,11 +10,5 @@ void setup() {
 }
 
 void loop() {
-    for (int i = 0; i < 16; i++) {
-        outputInterface.outputData(outputInterface.numericArray[i]);
-
-        Serial.println(i);
-        delay(1000);
-
-    }
+    sequencer.doStep();
 }
