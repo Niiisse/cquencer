@@ -33,7 +33,10 @@ class OutputInterface {
 
     OutputInterface(int latch, int clock, int data);
 
-    void outputData(byte data) const;
+    void shiftOutput(byte data) const;
+    void setLatch(bool state);
+
+    byte getByteFromInt(int number);
 };
 
 #endif //CQUENCER_OUTPUTINTERFACE_H

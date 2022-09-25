@@ -13,9 +13,27 @@ OutputInterface::OutputInterface(int latch, int clock, int data) :
 
 }
 
-void OutputInterface::outputData(byte data) const {
-    digitalWrite(latchPin, LOW);
-    shiftOut(dataPin, clockPin, LSBFIRST, data);
-    digitalWrite(latchPin, HIGH);
+void OutputInterface::setLatch(bool state) {
+    if (state) {
+        digitalWrite(latchPin, LOW);
+    } else {
+        digitalWrite(latchPin, HIGH);
+    }
 }
 
+void OutputInterface::shiftOutput(byte data) const {
+    shiftOut(dataPin, clockPin, LSBFIRST, data);
+}
+
+byte OutputInterface::getByteFromInt(int number){
+    return numericArray[number];
+}
+
+//void generateOutputData(int bpm, int patternCurrent, int stepCurrent) {
+//    String outputString = "";
+//
+//    char bpmChar = bpm;
+//    char patternChar = patternCurrent;
+//    char stepChar = stepCurrent;
+//
+//}l

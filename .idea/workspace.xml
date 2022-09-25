@@ -19,8 +19,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32139233-601c-4604-a025-957803e290dc" name="Changes" comment="">
+    <list default="true" id="32139233-601c-4604-a025-957803e290dc" name="Changes" comment="initial re-commit">
       <change beforePath="$USER_HOME$/ /home/nisse/code/cquencer/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/ /home/nisse/code/cquencer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/ /home/nisse/code/cquencer/src/OutputInterface.cpp" beforeDir="false" afterPath="$USER_HOME$/ /home/nisse/code/cquencer/src/OutputInterface.cpp" afterDir="false" />
       <change beforePath="$USER_HOME$/ /home/nisse/code/cquencer/src/OutputInterface.h" beforeDir="false" afterPath="$USER_HOME$/ /home/nisse/code/cquencer/src/OutputInterface.h" afterDir="false" />
       <change beforePath="$USER_HOME$/ /home/nisse/code/cquencer/src/Sequencer.cpp" beforeDir="false" afterPath="$USER_HOME$/ /home/nisse/code/cquencer/src/Sequencer.cpp" afterDir="false" />
       <change beforePath="$USER_HOME$/ /home/nisse/code/cquencer/src/Sequencer.h" beforeDir="false" afterPath="$USER_HOME$/ /home/nisse/code/cquencer/src/Sequencer.h" afterDir="false" />
@@ -64,16 +65,11 @@
     "cidr.known.project.marker": "true",
     "last_opened_file_path": "/home/nisse/ /home/nisse/code/cquencer",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "trusted.hosts"
+    "settings.editor.selected.configurable": "dynamic.analysis.tools.perf.profiler"
   }
 }]]></component>
   <component name="RunManager" selected="PlatformIO.PlatformIO Upload">
     <configuration name="Z_DUMMY_TARGET" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cquencer" TARGET_NAME="Z_DUMMY_TARGET" CONFIG_NAME="uno" RUN_TARGET_PROJECT_NAME="cquencer" RUN_TARGET_NAME="Z_DUMMY_TARGET">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -103,8 +99,17 @@
       <option name="presentableId" value="Default" />
       <updated>1664046885854</updated>
       <workItem from="1664046887146" duration="776000" />
-      <workItem from="1664047671534" duration="547000" />
+      <workItem from="1664047671534" duration="3270000" />
+      <workItem from="1664094247061" duration="7758000" />
     </task>
+    <task id="LOCAL-00001" summary="initial re-commit">
+      <created>1664048449478</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664048449478</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +125,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial re-commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial re-commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
